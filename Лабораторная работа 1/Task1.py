@@ -1,5 +1,5 @@
 class Book:
-    def _init_(self, pages_count: int, cover_height: float):
+    def __init__(self, pages_count: int, cover_height: float):
         """
         Создание и подготовка к работе объекта "Книга"
         :param pages_count: Количество страниц
@@ -30,7 +30,7 @@ class Book:
          """
         ...
 class Bottle:
-    def _init_(self, material: str, capacity_volume: float):
+    def __init__(self, material: str, capacity_volume: float):
         """
         Создание и подготовка к работе объекта "Бутылка"
         :param material: Материал бутылки
@@ -59,7 +59,7 @@ class Bottle:
         """
         ...
 class Plant:
-    def _init_(self, name: str, leaf_color: str, food_preferences: str):
+    def __init__(self, name: str, leaf_color: str, food_preferences: str):
         """
         Создание и подготовка к работе объекта "Растение"
         :param name: Наименование растения
